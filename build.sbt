@@ -28,7 +28,7 @@ lazy val `play-mailer` = (project in file("play-mailer"))
       "javax.inject" % "javax.inject" % "1",
       "com.typesafe" % "config" % "1.3.1",
       "org.slf4j" % "slf4j-api" % "1.7.25",
-      "org.apache.commons" % "commons-email" % "1.4",
+      "org.apache.commons" % "commons-email" % "1.5",
       "com.typesafe.play" %% "play" % PlayVersion % Test,
       "com.typesafe.play" %% "play-specs2" % PlayVersion % Test
     )
